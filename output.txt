@@ -1,0 +1,178 @@
+
+             OPCODE CHECK
+
+
+Instruction: MOV
+Mnemonic: FOUND
+Operand: EAX
+Operand Type: REGISTER
+Status: VALID
+Operand: EBX
+Operand Type: REGISTER
+Status: VALID
+
+
+
+Instruction: ADD
+Mnemonic: FOUND
+Operand: EAX
+Operand Type: REGISTER
+Status: VALID
+Operand: 10
+Operand Type: CONSTANT
+Status: VALID
+
+
+
+Instruction: SUB
+Mnemonic: FOUND
+Operand: ECX
+Operand Type: REGISTER
+Status: VALID
+Operand: [EBX]
+Operand Type: UNKNOWN
+Status: INVALID
+Error Type: INVALID_OPERAND
+
+
+
+Instruction: MOV
+Mnemonic: FOUND
+Operand: EDX
+Operand Type: REGISTER
+Status: VALID
+Operand: COUNT
+Operand Type: UNKNOWN
+Status: INVALID
+Error Type: INVALID_OPERAND
+
+
+
+Instruction: XYZ
+Mnemonic: NOT FOUND
+Status: INVALID
+Error Type: INVALID_MNEMONIC
+Operand: EAX
+Operand Type: REGISTER
+Status: VALID
+Operand: EBX
+Operand Type: REGISTER
+Status: VALID
+
+
+
+Instruction: MOV
+Mnemonic: FOUND
+Operand: ABC
+Operand Type: UNKNOWN
+Status: INVALID
+Error Type: INVALID_OPERAND
+Operand: EAX
+Operand Type: REGISTER
+Status: VALID
+
+
+
+Instruction: MOV
+Mnemonic: FOUND
+Operand: EAX
+Operand Type: REGISTER
+Status: VALID
+Operand: XYZ
+Operand Type: UNKNOWN
+Status: INVALID
+Error Type: INVALID_OPERAND
+
+
+
+Instruction: MOV
+Mnemonic: FOUND
+Operand: ebx
+Operand Type: REGISTER
+Status: VALID
+Operand: 5
+Operand Type: CONSTANT
+Status: VALID
+
+
+
+Instruction: ADD
+Mnemonic: FOUND
+Operand: ESI
+Operand Type: REGISTER
+Status: VALID
+Operand: EDI
+Operand Type: REGISTER
+Status: VALID
+
+
+
+Instruction: SUB
+Mnemonic: FOUND
+Operand: EBP
+Operand Type: REGISTER
+Status: VALID
+Operand: ESP
+Operand Type: REGISTER
+Status: VALID
+
+
+
+Instruction: MUL
+Mnemonic: FOUND
+Operand: EAX
+Operand Type: REGISTER
+Status: VALID
+
+
+
+Instruction: DIV
+Mnemonic: FOUND
+Operand: EDX
+Operand Type: REGISTER
+Status: VALID
+
+
+
+Instruction: INC
+Mnemonic: FOUND
+Operand: ECX
+Operand Type: REGISTER
+Status: VALID
+
+
+
+Instruction: DEC
+Mnemonic: FOUND
+Operand: EDX
+Operand Type: REGISTER
+Status: VALID
+
+
+
+Instruction: MOV
+Mnemonic: FOUND
+Operand: AX
+Operand Type: UNKNOWN
+Status: INVALID
+Error Type: INVALID_OPERAND
+Operand: BX
+Operand Type: UNKNOWN
+Status: INVALID
+Error Type: INVALID_OPERAND
+
+
+
+Instruction: MOV
+Mnemonic: FOUND
+Operand: AL
+Operand Type: UNKNOWN
+Status: INVALID
+Error Type: INVALID_OPERAND
+Operand: BL
+Operand Type: UNKNOWN
+Status: INVALID
+Error Type: INVALID_OPERAND
+
+
+

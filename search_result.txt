@@ -1,0 +1,18 @@
+========== SEARCH RESULT ==========
+
+Instruction: MOV
+Mnemonic: FOUND
+
+Operand 1: ecx
+Operand Type: REGISTER
+Status: VALID
+
+Operand 2: wes
+Operand Type: SYMBOL
+Status: ERROR
+Error Type: UNDEFINED_SYMBOL
+
+Overall Status: INVALID INSTRUCTION
+
+---------------------------------------------
+
