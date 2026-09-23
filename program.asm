@@ -1,16 +1,12 @@
-MOV EAX, EBX
-ADD EAX, 10
-SUB ECX, [EBX]
-MOV EDX, COUNT
-XYZ EAX, EBX
-MOV ABC, EAX
-MOV EAX, XYZ
-MOV ebx, 5
-ADD ESI, EDI
-SUB EBP, ESP
-MUL EAX
-DIV EDX
-INC ECX
-DEC EDX
-MOV AX, BX
-MOV AL, BL
+section .data
+
+    a db "Arpita"
+    b dd 15
+    c dw 300
+    d db 25
+
+section .text
+
+    mov eax, 15
+    mov ebx, 25
+    add eax, ebx
