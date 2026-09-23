@@ -1,6 +1,6 @@
 section .data
 
-    a db "Kajal"
+    a db "Arpita"
     b dd 15
     c dw 300
     d db 25
