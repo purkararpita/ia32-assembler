@@ -23,7 +23,7 @@ string convertToLittleEndian(int number, int bytes) {
 }
 
 int main() {
-    ifstream asmFile("program.asm");
+    ifstream asmFile("3program.asm");
     if (!asmFile.is_open()) {
         cout << "Error: Could not open program.asm file!" << endl;
         return 1;
