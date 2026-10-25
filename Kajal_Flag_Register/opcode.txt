@@ -1,0 +1,9 @@
+MOV - Move data
+ADD - Addition
+SUB - Subtraction
+CMP - Compare operands
+CF  - Carry Flag
+ZF  - Zero Flag
+SF  - Sign Flag
+OF  - Overflow Flag
+PF  - Parity Flag
