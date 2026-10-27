@@ -15,8 +15,7 @@ MOV AL, 1   ; SIGNED OVERFLOW, OF =1
 
 MOV AL, 5
 CPM AL, 5    ; EQUAL, ZF =1
-~                                                                                                                                                       
-~                                                                                                                                                       
-~                                                                                                                                                       
-~                                                                                                                                                       
-~                    
+                                                                                                                                                       
+                                                                                                                                                       
+                                                                                                                                                       
+                                                                                                                           
