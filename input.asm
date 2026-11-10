@@ -1,0 +1,19 @@
+MACRO
+INCR &ARG
+    LDA &ARG
+    ADD =1
+    STA &ARG
+MEND
+
+MACRO
+DECR &ARG
+    LDA &ARG
+    SUB =1
+    STA &ARG
+MEND
+
+START
+INCR A
+INCR B
+DECR C
+END
